@@ -1,3 +1,6 @@
+import CFG
+import CLIPDataset as CLIPDataset
+import get_transforms as get_transforms
 def build_loaders(dataframe, tokenizer, mode):
     transforms = get_transforms(mode=mode)
     dataset = CLIPDataset(

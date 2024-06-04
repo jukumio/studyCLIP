@@ -1,3 +1,4 @@
+import CFG
 class CLIPModel(nn.Module):
     def __init__(
         self,

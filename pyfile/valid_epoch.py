@@ -1,3 +1,5 @@
+import CFG
+import AvgMeter
 def valid_epoch(model, valid_loader):
     loss_meter = AvgMeter()
 

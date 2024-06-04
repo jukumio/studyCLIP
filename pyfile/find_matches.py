@@ -1,3 +1,4 @@
+import CFG
 def find_matches(model, image_embeddings, query, image_filenames, n=9):
     tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
     encoded_query = tokenizer([query])

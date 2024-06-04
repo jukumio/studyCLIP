@@ -1,3 +1,4 @@
+import CFG
 class ImageEncoder(nn.Module):
 
     def __init__(

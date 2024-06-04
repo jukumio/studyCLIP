@@ -1,3 +1,4 @@
+import CFG
 def get_transforms(mode="train"):
     if mode == "train":
         return A.Compose(
