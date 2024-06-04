@@ -1,0 +1,15 @@
+def get_transforms(mode="train"):
+    if mode == "train":
+        return A.Compose(
+            [
+                A.Resize(CFG.size, CFG.size, always_apply=True),
+                A.Normalize(max_pixel_value=255.0, always_apply=True),
+            ]
+        )
+    else:
+        return A.Compose(
+            [
+                A.Resize(CFG.size, CFG.size, always_apply=True),
+                A.Normalize(max_pixel_value=255.0, always_apply=True),
+            ]
+        )
