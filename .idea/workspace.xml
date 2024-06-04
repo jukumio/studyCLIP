@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b0d05c-cfd4-46ea-bf5c-2ef70a241c1d" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/studyCLIP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleCLIP.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="37b0d05c-cfd4-46ea-bf5c-2ef70a241c1d" name="변경" comment="seperate" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +63,17 @@
       <updated>1716367610896</updated>
       <workItem from="1716367612274" duration="1071000" />
       <workItem from="1716368755929" duration="1393000" />
+      <workItem from="1717487528838" duration="353000" />
     </task>
+    <task id="LOCAL-00001" summary="seperate">
+      <option name="closed" value="true" />
+      <created>1717487692216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717487692216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="seperate" />
+    <option name="LAST_COMMIT_MESSAGE" value="seperate" />
   </component>
 </project>
