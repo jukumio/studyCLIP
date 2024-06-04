@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b0d05c-cfd4-46ea-bf5c-2ef70a241c1d" name="변경" comment="seperate" />
+    <list default="true" id="37b0d05c-cfd4-46ea-bf5c-2ef70a241c1d" name="변경" comment="second_commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -63,7 +64,7 @@
       <updated>1716367610896</updated>
       <workItem from="1716367612274" duration="1071000" />
       <workItem from="1716368755929" duration="1393000" />
-      <workItem from="1717487528838" duration="353000" />
+      <workItem from="1717487528838" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="seperate">
       <option name="closed" value="true" />
@@ -73,7 +74,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717487692216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second_commit">
+      <option name="closed" value="true" />
+      <created>1717490111542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717490111542</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second_commit">
+      <option name="closed" value="true" />
+      <created>1717490165165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717490165165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="seperate" />
-    <option name="LAST_COMMIT_MESSAGE" value="seperate" />
+    <MESSAGE value="second_commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second_commit" />
   </component>
 </project>
