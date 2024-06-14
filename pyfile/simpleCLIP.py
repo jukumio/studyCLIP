@@ -19,11 +19,13 @@ import subprocess
 os.environ['KAGGLE_USERNAME'] = "juuhoney"
 os.environ['KAGGLE_KEY'] = "11898867"
 
+print("Downloading dataset from Kaggle...")
 # Kaggle 데이터셋 다운로드 명령어 실행
 subprocess.run(["kaggle", "datasets", "download", "-d", "adityajn105/flickr8k"])
 
-# 다운로드한 zip 파일의 압축 해제
-subprocess.run(["unzip", "flickr8k.zip", "-d", "./flickr8k"])
+print("Unzipping dataset...")
+with zipfile.ZipFile("flickr8k.zip", 'r') as zip_ref:
+    zip_ref.extractall("flickr8k")
 
 # dataset 변수 설정
 dataset = "8k"

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b0d05c-cfd4-46ea-bf5c-2ef70a241c1d" name="변경" comment="edit_6_14">
-      <change beforePath="$PROJECT_DIR$/pyfile/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="37b0d05c-cfd4-46ea-bf5c-2ef70a241c1d" name="변경" comment="edit_6_14" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +80,7 @@
       <workItem from="1717571341531" duration="1248000" />
       <workItem from="1717849125433" duration="373000" />
       <workItem from="1718113534539" duration="1111000" />
-      <workItem from="1718340184435" duration="788000" />
+      <workItem from="1718340184435" duration="1303000" />
     </task>
     <task id="LOCAL-00001" summary="seperate">
       <option name="closed" value="true" />
@@ -140,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718340734184</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="edit_6_14">
+      <option name="closed" value="true" />
+      <created>1718341450681</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718341450681</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +172,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="edit_6_14" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/simpleCLIP_py$simpleCLIP.coverage" NAME="simpleCLIP 커버리지 결과" MODIFIED="1718116943960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyfile" />
+    <SUITE FILE_PATH="coverage/simpleCLIP_py$simpleCLIP.coverage" NAME="simpleCLIP 커버리지 결과" MODIFIED="1718341482261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyfile" />
   </component>
 </project>
