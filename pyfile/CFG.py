@@ -1,3 +1,9 @@
+import os, torch
+dataset_dir = "flickr8k"
+image_dir = os.path.join(dataset_dir, "Images")
+captions_file = os.path.join(dataset_dir, "captions.txt")
+image_path = image_dir
+captions_path = dataset_dir
 class CFG:
     debug = False
     image_path = image_path
