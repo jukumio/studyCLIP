@@ -17,3 +17,18 @@ class TextEncoder(nn.Module):
         output = self.model(input_ids=input_ids, attention_mask=attention_mask)
         last_hidden_state = output.last_hidden_state
         return last_hidden_state[:, self.target_token_idx, :]
+    
+class ImageEncoder(nn.Module):
+
+    def __init__(
+        self, model_name=CFG.model_name, pretrained=CFG.pretrained, trainable=CFG.trainable
+    ):
+        super().__init__()
+        self.model = timm.create_model(
+            model_name, pretrained, num_classes=0, global_pool="avg"
+        )
+        for p in self.model.parameters():
+            p.requires_grad = trainable
+
+    def forward(self, x):
+        return self.model(x)

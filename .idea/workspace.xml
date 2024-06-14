@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b0d05c-cfd4-46ea-bf5c-2ef70a241c1d" name="변경" comment="second_commit">
+    <list default="true" id="37b0d05c-cfd4-46ea-bf5c-2ef70a241c1d" name="변경" comment="thirdcommit">
+      <change afterPath="$PROJECT_DIR$/pyfile/CLIP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyfile/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/CLIPDataset" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/CLIPDataset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/CLIPModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/CLIPModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/ImageEncoder" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/ImageEncoder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/ProjectionHead" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/ProjectionHead" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/TextEncoder" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/TextEncoder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/build_loaders.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/build_loaders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/find_matches.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/find_matches.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/get_image_embeddings" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/get_image_embeddings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/get_transforms" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/get_transforms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/import.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfile/CLIPDataset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfile/CLIPModel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfile/ImageEncoder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfile/TextEncoder" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/Encoder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfile/find_matches.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfile/get_image_embeddings" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/get_TFs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfile/get_transforms" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pyfile/make_train_valid_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/make_train_valid_dfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/train_epoch.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/train_epoch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/valid_epoch.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/valid_epoch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleCLIP.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startclip.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/simpleCLIP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfile/simpleCLIP.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/simpleCLIP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfile/train_epoch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfile/valid_epoch.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/Epoch.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +34,31 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2gocwi1pjru5j6W4TJGZUaBJYNK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.simpleCLIP.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -90,7 +93,9 @@
       <workItem from="1717487528838" duration="1523000" />
       <workItem from="1717563457976" duration="366000" />
       <workItem from="1717571341531" duration="1248000" />
-      <workItem from="1717849125433" duration="309000" />
+      <workItem from="1717849125433" duration="373000" />
+      <workItem from="1718113534539" duration="1111000" />
+      <workItem from="1718340184435" duration="453000" />
     </task>
     <task id="LOCAL-00001" summary="seperate">
       <option name="closed" value="true" />
@@ -124,7 +129,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717490275930</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="thirdcommit">
+      <option name="closed" value="true" />
+      <created>1717849455924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717849455925</updated>
+    </task>
+    <task id="LOCAL-00006" summary="thirdcommit">
+      <option name="closed" value="true" />
+      <created>1717849494695</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717849494695</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,8 +163,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="seperate" />
     <MESSAGE value="second_commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second_commit" />
+    <MESSAGE value="thirdcommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="thirdcommit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/simpleCLIP_py$simpleCLIP.coverage" NAME="simpleCLIP 커버리지 결과" MODIFIED="1718116943960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyfile" />
   </component>
 </project>
