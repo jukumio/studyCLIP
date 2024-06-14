@@ -1,7 +1,4 @@
 timm
 transformers
-kaggle --upgrade
-
-kaggle datasets download -d adityajn105/flickr8k
-unzip flickr8k.zip
-dataset = "8k"
+kaggle
+albumentations

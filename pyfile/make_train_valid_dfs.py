@@ -1,4 +1,3 @@
-import CFG
 def make_train_valid_dfs():
     dataframe = pd.read_csv(f"{CFG.captions_path}/captions.csv")
     max_id = dataframe["id"].max() + 1 if not CFG.debug else 100

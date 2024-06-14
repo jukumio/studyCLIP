@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b0d05c-cfd4-46ea-bf5c-2ef70a241c1d" name="변경" comment="thirdcommit">
-      <change afterPath="$PROJECT_DIR$/pyfile/CLIP" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyfile/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/CLIPDataset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/CLIPModel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/ImageEncoder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/TextEncoder" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/Encoder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/find_matches.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/get_image_embeddings" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/get_TFs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/get_transforms" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/make_train_valid_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/make_train_valid_dfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/simpleCLIP.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/simpleCLIP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/train_epoch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfile/valid_epoch.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/Epoch.py" afterDir="false" />
+    <list default="true" id="37b0d05c-cfd4-46ea-bf5c-2ef70a241c1d" name="변경" comment="edit_6_14">
+      <change beforePath="$PROJECT_DIR$/pyfile/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyfile/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +82,7 @@
       <workItem from="1717571341531" duration="1248000" />
       <workItem from="1717849125433" duration="373000" />
       <workItem from="1718113534539" duration="1111000" />
-      <workItem from="1718340184435" duration="453000" />
+      <workItem from="1718340184435" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="seperate">
       <option name="closed" value="true" />
@@ -145,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717849494695</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edit_6_14">
+      <option name="closed" value="true" />
+      <created>1718340734184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718340734184</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +162,8 @@
     <MESSAGE value="seperate" />
     <MESSAGE value="second_commit" />
     <MESSAGE value="thirdcommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="thirdcommit" />
+    <MESSAGE value="edit_6_14" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit_6_14" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/simpleCLIP_py$simpleCLIP.coverage" NAME="simpleCLIP 커버리지 결과" MODIFIED="1718116943960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyfile" />
