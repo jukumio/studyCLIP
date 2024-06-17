@@ -1,3 +1,10 @@
+import timm
+from torch import nn
+from transformers import DistilBertModel, DistilBertConfig
+
+from CFG import CFG
+
+
 class TextEncoder(nn.Module):
     def __init__(self, model_name=CFG.text_encoder_model, pretrained=CFG.pretrained, trainable=CFG.trainable):
         super().__init__()

@@ -1,3 +1,13 @@
+import itertools
+import torch
+from transformers import DistilBertTokenizer
+
+from CFG import CFG
+from CLIP import CLIPModel
+from Epoch import valid_epoch, train_epoch
+from build_loaders import build_loaders
+from make_train_valid_dfs import make_train_valid_dfs
+
 def main():
     train_df, valid_df = make_train_valid_dfs()
     tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)

@@ -1,3 +1,6 @@
+from tqdm.autonotebook import tqdm
+from AvgMeter import AvgMeter
+import CFG
 def train_epoch(model, train_loader, optimizer, lr_scheduler, step):
     loss_meter = AvgMeter()
     tqdm_object = tqdm(train_loader, total=len(train_loader))

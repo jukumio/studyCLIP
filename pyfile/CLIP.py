@@ -1,3 +1,12 @@
+import cv2
+import torch
+import torch.nn.functional as F
+from torch import nn
+
+import CFG
+from Encoder import TextEncoder, ImageEncoder
+from ProjectionHead import ProjectionHead
+
 class CLIPDataset(torch.utils.data.Dataset):
     def __init__(self, image_filenames, captions, tokenizer, transforms):
         """

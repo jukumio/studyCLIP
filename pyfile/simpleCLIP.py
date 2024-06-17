@@ -1,20 +1,10 @@
 import os
-import cv2
-import gc
-import numpy as np
-import pandas as pd
-import itertools
-from tqdm.autonotebook import tqdm
-import albumentations as A
-import matplotlib.pyplot as plt
+import subprocess
 import zipfile
 
+import pandas as pd
 import torch
-from torch import nn
 import torch.nn.functional as F
-import timm
-from transformers import DistilBertModel, DistilBertConfig, DistilBertTokenizer
-import subprocess
 
 print("Downloading dataset from Kaggle...")
 subprocess.run(["kaggle", "datasets", "download", "-d", "adityajn105/flickr8k"])
@@ -41,8 +31,8 @@ if dataset == "8k":
 
 df.head()
 
-import AvgMeter, build_loaders, CFG, CLIP, cross_entropy, Encoder, Epoch, get_TFs, main, make_train_valid_dfs, ProjectionHead
-
+import main, make_train_valid_dfs
+from get_TFs import get_image_embeddings, find_matches
 # A simple Example
 
 batch_size = 4
