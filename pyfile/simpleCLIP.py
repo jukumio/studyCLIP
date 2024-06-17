@@ -31,7 +31,8 @@ if dataset == "8k":
 
 df.head()
 
-import main, make_train_valid_dfs
+from main import main
+from make_train_valid_dfs import make_train_valid_dfs
 from get_TFs import get_image_embeddings, find_matches
 # A simple Example
 
