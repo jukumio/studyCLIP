@@ -3,11 +3,8 @@ import cv2
 import matplotlib.pyplot as plt
 import torch
 import torch.nn.functional as F
-from tqdm.autonotebook import tqdm
 from transformers import DistilBertTokenizer
-import CFG
-from build_loaders import build_loaders
-from CLIP import CLIPModel
+from CFG import CFG
 
 def find_matches(model, image_embeddings, query, image_filenames, n=9):
     tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
@@ -52,18 +49,3 @@ def get_transforms(mode="train"):
                 A.Normalize(max_pixel_value=255.0, always_apply=True),
             ]
         )
-def get_image_embeddings(valid_df, model_path):
-    tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
-    valid_loader = build_loaders(valid_df, tokenizer, mode="valid")
-
-    model = CLIPModel().to(CFG.device)
-    model.load_state_dict(torch.load(model_path, map_location=CFG.device))
-    model.eval()
-
-    valid_image_embeddings = []
-    with torch.no_grad():
-        for batch in tqdm(valid_loader):
-            image_features = model.image_encoder(batch["image"].to(CFG.device))
-            image_embeddings = model.image_projection(image_features)
-            valid_image_embeddings.append(image_embeddings)
-    return model, torch.cat(valid_image_embeddings)

@@ -1,17 +1,20 @@
 import os
 import subprocess
 import zipfile
-
 import pandas as pd
 import torch
 import torch.nn.functional as F
+from main import main
+from make_train_valid_dfs import make_train_valid_dfs
+from get_TFs import find_matches
+from image_embed import get_image_embeddings
 
 print("Downloading dataset from Kaggle...")
 subprocess.run(["kaggle", "datasets", "download", "-d", "adityajn105/flickr8k"])
 
 print("Unzipping dataset...")
 with zipfile.ZipFile("flickr8k.zip", 'r') as zip_ref:
-    zip_ref.extractall("flickr8k")
+    zip_ref.extractall("C:\\flickr8k")
 
 dataset_dir = "flickr8k"
 image_dir = os.path.join(dataset_dir, "Images")
@@ -31,11 +34,7 @@ if dataset == "8k":
 
 df.head()
 
-from main import main
-from make_train_valid_dfs import make_train_valid_dfs
-from get_TFs import get_image_embeddings, find_matches
 # A simple Example
-
 batch_size = 4
 dim = 256
 embeddings = torch.randn(batch_size, dim)
