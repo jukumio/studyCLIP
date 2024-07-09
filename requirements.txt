@@ -2,3 +2,9 @@ timm
 transformers
 kaggle
 albumentations
+numpy
+pandas
+tqdm
+matplotlib
+torch
+opencv-python

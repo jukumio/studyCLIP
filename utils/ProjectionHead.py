@@ -1,4 +1,4 @@
-from torch import nn as nn
+import torch.nn as nn
 from config.configCLIP import CFG
 
 class ProjectionHead(nn.Module):

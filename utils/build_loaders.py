@@ -1,7 +1,7 @@
-import torch
 from config.configCLIP import CFG
-from CLIP import CLIPDataset
-from get_TFs import get_transforms
+from model.CLIP import CLIPDataset
+from model.layers.get_TFs import get_transforms
+import torch
 
 def build_loaders(dataframe, tokenizer, mode):
     transforms = get_transforms(mode=mode)

@@ -4,7 +4,7 @@ from transformers import DistilBertTokenizer
 from config.configCLIP import CFG
 from model.CLIP import CLIPModel
 from model.Epoch import valid_epoch, train_epoch
-from utils.build import build_loaders
+from utils.build_loaders import build_loaders
 from utils.make_train_valid_dfs import make_train_valid_dfs
 
 def main():

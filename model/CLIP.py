@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 from config.configCLIP import CFG
-from Encoder import TextEncoder, ImageEncoder
+from .Encoder import TextEncoder, ImageEncoder
 from utils.ProjectionHead import ProjectionHead
 from layers.cross_entropy import cross_entropy
 from torch.utils.data import Dataset

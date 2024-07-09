@@ -1,1 +1,1 @@
-from configCLIP import *
+from .configCLIP import *

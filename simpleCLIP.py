@@ -4,7 +4,6 @@ import zipfile
 import pandas as pd
 import torch
 import torch.nn.functional as F
-from main import main
 from utils.make_train_valid_dfs import make_train_valid_dfs
 from model.layers.get_TFs import find_matches
 from model.image_embed import get_image_embeddings

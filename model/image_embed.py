@@ -3,7 +3,7 @@ from tqdm.autonotebook import tqdm
 from transformers import DistilBertTokenizer
 from config.configCLIP import CFG
 from CLIP import CLIPModel
-from utils.build import build_loaders
+from utils.build_loaders import build_loaders
 
 def get_image_embeddings(valid_df, model_path):
     tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
