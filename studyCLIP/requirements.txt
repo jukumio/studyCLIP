@@ -1,4 +1,0 @@
-timm
-transformers
-kaggle
-albumentations
